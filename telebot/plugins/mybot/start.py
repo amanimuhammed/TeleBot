@@ -85,7 +85,7 @@ async def start_all(event):
                                   caption=startotherena,
                                   buttons=[
                                       [Button.url(
-                                          "TeleBot", url="https://github.com/xditya/TeleBot")],
+                                          "TeleBot", url="https://github.com/amanimuhammed/TeleBot")],
                                       [Button.inline(
                                           "Whats this?", data="telebot")]
                                   ]
@@ -95,7 +95,7 @@ async def start_all(event):
                                      startotherena,
                                      buttons=[
                                          [Button.url(
-                                             "TeleBot", url="https://github.com/xditya/TeleBot")],
+                                             "TeleBot", url="https://github.com/amanimuhammed/TeleBot")],
                                          [Button.inline(
                                              "Whats this?", data="telebot")]
                                      ]
@@ -181,8 +181,8 @@ async def settings(event):
 async def settings(event):
     await event.edit("Browse through the available options:",
                      buttons=[
-                         [(Button.url("Repository", url="https://github.com/xditya/TeleBot")),
-                          (Button.url("Deploy", url="https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2Fxditya%2FTeleBot%2F&template=https%3A%2F%2Fgithub.com%2Fxditya%2FTeleBot"))],
+                         [(Button.url("Repository", url="https://github.com/amanimuhammed/TeleBot")),
+                          (Button.url("Deploy", url="https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2Famanimuhammed%2FTeleBot%2F&template=https%3A%2F%2Fgithub.com%2Famanimuhammed%2FTeleBot"))],
                          [Button.url("Support",
                                      url="https://t.me/TeleBotSupport")]
                      ])
